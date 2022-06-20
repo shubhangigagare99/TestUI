@@ -1,0 +1,8 @@
+node_modules
+public
+dist
+.env
+package-lock.json
+.eslintignore
+.eslintrc
+.editorconfig
