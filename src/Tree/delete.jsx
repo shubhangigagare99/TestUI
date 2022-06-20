@@ -40,12 +40,8 @@ console.log("dddel",data?.originalId);
           },
         },
       });
-     // if (response?.status === 'success') {
-      //  console.log('You have deleted trainee successfully',response?.data);
       alert("Deleted Successfully....!!");
-   //   }
       onSubmit();
-    //   setLoading(false);
     } catch (err) {
       console.log('CATCH BLOCK : in RemoveDialog.jsx .then => ', err);
     }
